@@ -14,6 +14,8 @@ Vagrant.configure("2") do |config|
   # boxes at https://vagrantcloud.com/search.
   config.vm.box = "ubuntu/focal64"
   config.vm.hostname = "vuln"
+  config.ssh.username = "vuln"
+  config.ssh.password = "test"
 
   # Disable automatic box update checking. If you disable this, then
   # boxes will only be checked for updates when the user runs
