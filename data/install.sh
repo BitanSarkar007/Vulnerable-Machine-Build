@@ -12,9 +12,9 @@ systemctl start docker
 
 echo -e "\e[1;31m Clone VulHub \e[0m"
 
+git clone https://github.com/BitanSarkar007/vulhubsh.git
+cd vulhubsh
 git clone https://github.com/BitanSarkar007/vulhub.git
-cd vulhub
-git clone https://github.com/vulhub/vulhub.git
 
 echo -e "\e[1;31m Give executive permission \e[0m"
 
