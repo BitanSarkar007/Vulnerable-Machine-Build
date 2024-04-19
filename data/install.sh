@@ -1,8 +1,8 @@
 echo -e "\e[1;31m updating repos \e[0m" 
 apt update
 
-echo -e "\e[1;31m Upgrading repos \e[0m" 
-apt upgrade -y
+#echo -e "\e[1;31m Upgrading repos \e[0m" 
+#apt upgrade -y
 
 echo -e "\e[1;31m  Install the latest version docker \e[0m" 
 curl -s https://get.docker.com/ | sh
